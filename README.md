@@ -20,7 +20,7 @@ End to End Web Scraping with RAG Pipeline Block Diagram
 
 
 
-
+User Interface Demo 
 
 <img width="950" alt="Web_Scraper_RAG_1" src="https://github.com/user-attachments/assets/ea80d361-3303-4990-97f1-7c518ccd17ac">
 
