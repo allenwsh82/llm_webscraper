@@ -34,22 +34,18 @@ Key Components / Features:
 
 1. reader = SimpleWebPageReader
 Reader API used to simplify data ingestion from multiple sources which include webpages for processing and data extraction.
-
 Follow this URL: https://lnkd.in/e-_yEFZk
 
 3. query_engine = index.as_query_engine
 query engine API takes in natural language query and generates a rich response to the user. It has built in one or many indexes capacities as retrievers which simplify the process of building a AI ChatBot with RAG capabilities.
-
 Follow this URL: https://lnkd.in/ezpK-RF9
 
 5. index = VectorStoreIndex.from_documents
 Vector Stores are key component in RAG and you can easily call out this function from LlamaIndex to load a set of documents and build an index from them using from_documents.
-
 Follow this URL: https://lnkd.in/evJQsj-M
 
 7. Settings.llm=Ollama(model="llama3.1")
 Ollama allows user to setup and run a local ollama instance with your desired model. In this demo, llama3.1-8B is being used and setting up ollama with LlamaIndex framework is so much easier.
-
 Follow this URL: https://lnkd.in/eWsN9Uxb
 
 
