@@ -60,16 +60,30 @@ Summary:
 
 How to run llm with web scraping with RAG Demo:
 
-1) Clone the project: git clone https://github.com/allenwsh82/llm_webscraper
+1) Clone the project:
+   ``` 
+   git clone https://github.com/allenwsh82/llm_webscraper
+   ```
    
-3) Create a new environment for this project: python -m venv webscaper_env
+2) Create a new environment for this project:
+   ```
+   python -m venv webscaper_env
+   ```
    
-5) Activate the environment: source webscraper_env/bin/activate
+3) Activate the environment:
+   ```
+   source webscraper_env/bin/activate
+   ```
    
-7) Setup the environment with all the dependencies: pip install -r requirements.txt
+4) Setup the environment with all the dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
    
-9) Run the demo script by this command: streamlit run web_scraper.py
-
+5) Run the demo script by this command:
+   ```
+   streamlit run web_scraper.py
+   ```
 
 
 User Interface Demo 
