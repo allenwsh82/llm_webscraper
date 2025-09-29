@@ -1,14 +1,13 @@
-# llm_webscraper
+# Building ChatBot with Web Scraping Capavilities 
 
 
-Basically what is web scraper?
-
+**Basically what is web scraper?**
 
 Web scraping is the process of using bots to extract content and data from a website. Unlike screen scraping, which only copies pixels displayed onscreen, web scraping extracts underlying HTML code and, with it, data stored in a database. The scraper can then replicate entire website content elsewhere.
 
 
 
-End to End Web Scraping with RAG Pipeline Block Diagram
+**End to End Web Scraping with RAG Pipeline Block Diagram**
 
 <img width="950" alt="End_2_End_Web_Scraping_RAG" src="https://github.com/user-attachments/assets/b0e0dfa2-3088-41cc-a05c-3dbca3cc514f">
 
@@ -24,13 +23,13 @@ LLM Model: meta-llama/Meta-Llama-3.1-8B-Instruct [The latest and greatest model 
 Embedding Model: BAAI/bge-large-en-v1.5 (https://lnkd.in/eKNWQMVV)
 Vector Store: In Memory from LlamaIndex (https://lnkd.in/gZWqXRvv)
  
-Inference Hardware Configuration: 
+**Inference Hardware Configuration:** 
 
 CPU : Intel 4th Gen Xeon 8480+
 RAM usage: 12GB (During RAG Prompt), 5GB (During document indexing)
 OS: Ubuntu 22.04
 
-Key Components / Features:
+**Key Components / Features:**
 
 1. reader = SimpleWebPageReader
 Reader API used to simplify data ingestion from multiple sources which include webpages for processing and data extraction.
@@ -49,7 +48,7 @@ Ollama allows user to setup and run a local ollama instance with your desired mo
 Follow this URL: https://lnkd.in/eWsN9Uxb
 
 
-Summary:
+**Summary:**
 
 1) Building a NLP workload with RAG is pretty easy and straightforward by using open source frameworks such as LlamaIndex 
 
@@ -58,7 +57,7 @@ Summary:
 3) By following the guidelines and examples from LlamaIndex official documentation, developers and enterprises can integrate LlamaIndex framework into their projects to enhance the capabilities and performances running it either on CPU, GPU or AI Accelerator.
 
 
-How to run llm with web scraping with RAG Demo:
+**How to run llm with web scraping with RAG Demo:**
 
 1) Clone the project:
    ``` 
