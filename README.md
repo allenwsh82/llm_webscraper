@@ -1,4 +1,4 @@
-# Building ChatBot with Web Scraping Capavilities 
+# Building ChatBot with Web Scraping Capabilities 
 
 
 **Basically what is web scraper?**
